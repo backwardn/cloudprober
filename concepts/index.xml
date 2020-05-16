@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Concepts on Cloudprober</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Concepts on Cloudprober</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2017 17:24:32 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 17:24:32 -0700</lastBuildDate>
     
 	<atom:link href="https://cloudprober.org/concepts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Targets Discovery</title>
+      <link>https://cloudprober.org/concepts/targets/</link>
+      <pubDate>Fri, 25 Oct 2019 17:24:32 -0700</pubDate>
+      
+      <guid>https://cloudprober.org/concepts/targets/</guid>
+      <description>Automatic and continuous discovery of the targets is one of the core features of Cloudprober. This feature is specially critical for the dynamic environments that today&#39;s cloud based deployments make possible. For exmaple, in a kubernetes cluster number of pods and their IPs can change on the fly, either in response to replica count changes or node failures. Automated targets discovery makes sure that we don&#39;t have to reconfigure Cloudprober in response to such events.</description>
+    </item>
     
     <item>
       <title>Probe</title>
@@ -17,7 +26,8 @@
       <pubDate>Tue, 25 Jul 2017 17:24:32 -0700</pubDate>
       
       <guid>https://cloudprober.org/concepts/probe/</guid>
-      <description>Cloudprober&amp;rsquo;s main task is to run probes. A probe executes something, usually against a set of targets, to verify that the systems are working as expected from consumers&amp;rsquo; point of view. For example, an HTTP probe executes an HTTP request against a web server to verify that the web server is available. Cloudprober probes run repeatedly at a configured interval and export probe results as a set of metrics.</description>
+      <description>Cloudprober&#39;s main task is to run probes. A probe executes something, usually against a set of targets, to verify that the systems are working as expected from consumers&amp;rsquo; point of view. For example, an HTTP probe executes an HTTP request against a web server to verify that the web server is available. Cloudprober probes run repeatedly at a configured interval and export probe results as a set of metrics.
+A probe is defined as a set of the following fields:</description>
     </item>
     
   </channel>
